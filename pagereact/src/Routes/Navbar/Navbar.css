@@ -1,0 +1,220 @@
+@import url('https://fonts.google.com/specimen/Epilogue');
+
+@media (min-width: 700px) {
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .imgNav{
+        width: 10%;
+    }
+    .imgLogo{
+        padding: 15%;
+    }
+    .listaNav{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        text-decoration: none;
+        width: 50%;
+        justify-content: start;
+        align-items: center;
+        gap: 5%;
+        margin: 0;
+    }
+    .listaOpen{
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+        align-items: center;
+        cursor: pointer;
+    }
+    .imgArrow{
+        margin: auto;
+    }
+    .listaText{
+        margin: auto;
+        font-size: 18px;
+        font-family: Epilogue;
+        font-weight: 700;
+        color: hsl(0, 0%, 41%);
+    }
+    .listaText:hover{
+        color: black;
+    }
+    .listaTextLi{
+        font-size: 18px;
+        font-family: Epilogue;
+        font-weight: 700;
+        color: hsl(0, 0%, 41%);
+        cursor: pointer;
+    }
+    .listaTextLi:hover{
+        color: black;
+    }
+    .buttonNav{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: end;
+    }
+    .buttonL{
+        color: hsl(0, 0%, 41%);
+        background: none;
+        border: none;
+        height: 50%;
+        width: 15%;
+        margin: auto 10px auto 60px;
+        cursor: pointer;
+    }
+    .buttonL:hover{
+        color: black;
+    }
+    .buttonR{
+        background: none;
+        border: 2px hsl(0, 0%, 41%) solid;
+        border-radius: 12px;
+        height: 55%;
+        width: 18%;
+        margin: auto 60px auto 10px;
+        color: hsl(0, 0%, 41%);
+        cursor: pointer;
+    }
+    .buttonR:hover{
+        color: hsl(0, 0%, 8%);
+        border: 2px hsl(0, 0%, 8%) solid;
+    }
+    .buttonText{
+        font-size: 18px;
+        font-family: Epilogue;
+        font-weight: 700;
+        margin: 0;
+    }
+    .res{
+        display: none;
+    }
+}
+
+@media (max-width: 699px) {
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .imgNav{
+        width: 10%;
+    }
+    .imgLogo{
+        padding: 25%;
+    }
+    .res{
+        width: 15%;
+    }
+    .fondoMenuCont{
+        display: flex;
+        flex-direction: row;
+    }
+    .fondo{
+        width: 35%;
+        position: absolute;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        left: 0;
+    }
+    .contMenuOpen{
+        width: 65%;
+        position: absolute;
+        height: 100%;
+        background-color: white;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .contClose{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .imgClose{
+        padding: 10%;
+    }
+    .listaNavRes{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-decoration: none;
+        width: 80%;
+        justify-content: start;
+        align-items: start;
+        gap: 15px;
+        padding: 0 10%;
+        margin-top: 20%;
+    }
+    .listaOpen{
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+        align-items: center;
+        cursor: pointer;
+    }
+    .imgArrow{
+        margin: auto 0;
+    }
+    .listaText{
+        margin: auto 0;
+        font-size: 18px;
+        font-family: Epilogue;
+        font-weight: 700;
+        color: hsl(0, 0%, 41%);
+    }
+    .listaTextLi{
+        font-size: 18px;
+        font-family: Epilogue;
+        font-weight: 700;
+        color: hsl(0, 0%, 41%);
+        cursor: pointer;
+    }
+    .buttonNavRes{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .buttonL{
+        background: none;
+        border: none;
+        height: 40px;
+        width: 100%;
+        margin: 0 auto;
+        color: hsl(0, 0%, 41%);
+        cursor: pointer;
+    }
+    .buttonR{
+        background: none;
+        border: 2px hsl(0, 0%, 41%) solid;
+        border-radius: 12px;
+        height: 40px;
+        width: 100%;
+        margin: 0 auto;
+        color: hsl(0, 0%, 41%);
+        cursor: pointer;
+    }
+    .buttonText{
+        font-size: 18px;
+        font-family: Epilogue;
+        font-weight: 700;
+        margin: 0;
+    }
+
+
+
+    .listaNav{
+        display: none;
+    }
+    .buttonNav{
+        display: none
+    }
+}

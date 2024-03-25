@@ -1,0 +1,67 @@
+@import url('https://fonts.google.com/specimen/Epilogue');
+
+@media (min-width: 700px) {
+    .containerCompany{
+        background-color: white;
+        box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.3);
+        position: absolute;
+        width: 110px;
+        height: 120px;
+        margin-top: 1%;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .listaFeature{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+    .liFeature{
+        height: 20px;
+        width: 100%;
+        justify-content: start;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        gap: 5px;
+        font-family: Epilogue;
+        font-weight: 700;
+        color: hsl(0, 0%, 41%);
+    }
+}
+
+@media (max-width: 699px) {
+    .containerCompany{
+        position: relative;
+        width: 150px;
+        height: 100px;
+        margin-top: 15px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        padding: 0px;
+    }
+    .listaCom{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+    .liCom{
+        height: 10px;
+        width: 100%;
+        justify-content: start;
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto;
+        gap: 0px;
+        font-family: Epilogue;
+        font-weight: 700;
+        color: hsl(0, 0%, 41%);
+    }
+}

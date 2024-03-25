@@ -1,0 +1,133 @@
+@import url('https://fonts.google.com/specimen/Epilogue');
+
+@media (min-width: 700px) {
+    .home{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .containerUno{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 10%;
+    }
+    .titleHome{
+        font-size: 70px;
+        font-weight: 700;
+        color: hsl(0, 0%, 8%);
+        margin: 0 0 8% 0;
+        line-height: 1;
+    }
+    .textHome{
+        font-size: 18px;
+        font-family: Epilogue;
+        font-weight: 700;
+        color: hsl(0, 0%, 41%);
+        margin-bottom: 10%;
+    }
+    .buttonHome{
+        border: none;
+        background-color: hsl(0, 0%, 8%);
+        border-radius: 12px;
+        height: 40px;
+        width: 35%;
+        color: hsl(0, 0%, 98%);
+        cursor: pointer;
+    }
+    .buttonHome:hover{
+        color: hsl(0, 0%, 8%);;
+        background: none;
+        border: 1px hsl(0, 0%, 8%) solid;
+    }
+    .buttonHomeText{ 
+        font-size: 18px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .client{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10%;
+        margin: 15% 0 auto 0;
+        align-items: center;
+    }
+    .imgHome{
+        width: 90%;
+        height: auto;
+    }
+    .imgHomeres{
+        display: none;
+    }
+}
+
+@media (max-width: 699px) {
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .containerUno{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    .titleHome{
+        font-size: 40px;
+        font-weight: 700;
+        color: hsl(0, 0%, 8%);
+        margin: 0 0 8% 0;
+        line-height: 1;
+    }
+    .textHome{
+        font-size: 18px;
+        font-family: Epilogue;
+        font-weight: 700;
+        color: hsl(0, 0%, 41%);
+        margin-bottom: 10%;
+    }
+    .buttonHome{
+        border: none;
+        background-color: hsl(0, 0%, 8%);
+        border-radius: 12px;
+        height: 45px;
+        width: 35%;
+        color: hsl(0, 0%, 98%);
+        cursor: pointer;
+    }
+    .buttonHome:hover{
+        color: hsl(0, 0%, 8%);;
+        background: none;
+        border: 1px hsl(0, 0%, 8%) solid;
+    }
+    .buttonHomeText{ 
+        font-size: 18px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .client{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+        margin: 15% auto 30% auto;
+        align-items: center;
+        width: 90%;
+    }
+    .clientImg{
+        width: 19%;
+    }
+    .imgHome{
+        display: none;
+    }
+    .imgHomeres{
+        width: 100%;
+        height: auto;
+    }
+}
